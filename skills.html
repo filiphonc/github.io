@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Filip Honc — Portfolio — Skills</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav>
+    <a href="index.html" class="nav-logo">FH</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="interests.html">Interests</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page">
+
+    <!-- HEADER -->
+    <div class="about-hero">
+      <div class="about-hero-bg"></div>
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title" style="margin-bottom:0">WHAT I CAN DO</h2>
+    </div>
+
+    <!-- SKILL CARDS -->
+    <section class="section">
+      <p class="skills-intro">
+        I work at the intersection of software and physical systems. My skills are split across programming, IT fundamentals, and hands-on mechanical knowledge — a combination that's rarer than it sounds.
+      </p>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">☕</div>
+          <h3>Java Programming</h3>
+          <p>Intermediate-level, project-based experience. I've built menu-driven apps, file I/O systems, and OOP-structured applications with real architecture decisions.</p>
+          <div class="tags">
+            <span class="tag hot">OOP</span>
+            <span class="tag hot">Collections</span>
+            <span class="tag hot">Interfaces</span>
+            <span class="tag">File I/O</span>
+            <span class="tag">Enums</span>
+            <span class="tag">Time API</span>
+            <span class="tag">Exception Handling</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🏗️</div>
+          <h3>Software Architecture</h3>
+          <p>Comfortable structuring applications from scratch. I think in layers — separation of concerns, interface contracts, and keeping things maintainable.</p>
+          <div class="tags">
+            <span class="tag hot">Design Patterns</span>
+            <span class="tag">Class Hierarchies</span>
+            <span class="tag">Data Modeling</span>
+            <span class="tag">Modularity</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🖥️</div>
+          <h3>System & IT</h3>
+          <p>Daily driver on both Windows and Linux. Comfortable with CLI, file systems, and general troubleshooting. IT isn't a mystery — it's just another system to understand.</p>
+          <div class="tags">
+            <span class="tag hot">Windows</span>
+            <span class="tag hot">Linux</span>
+            <span class="tag">CLI</span>
+            <span class="tag">File Systems</span>
+            <span class="tag">Troubleshooting</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🔧</div>
+          <h3>Automotive & Mechanical</h3>
+          <p>Hands-on knowledge built through owning and maintaining a BMW E39 530d. I understand diesel systems, fault diagnosis, and the patience real mechanical work demands.</p>
+          <div class="tags">
+            <span class="tag hot">BMW E39</span>
+            <span class="tag hot">Diesel Systems</span>
+            <span class="tag">Fault Diagnosis</span>
+            <span class="tag">Maintenance</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🔊</div>
+          <h3>Car Audio / Electronics</h3>
+          <p>Planned and executed DIY speaker and amplifier installs. Reading wiring diagrams, matching impedance, routing cables — all self-taught from scratch.</p>
+          <div class="tags">
+            <span class="tag hot">Wiring</span>
+            <span class="tag">Amplifiers</span>
+            <span class="tag">Speaker Install</span>
+            <span class="tag">Signal Flow</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">📁</div>
+          <h3>Data Persistence</h3>
+          <p>Experience working with text files, binary formats, and Java's file API for structured data storage and retrieval — including error handling for I/O failures.</p>
+          <div class="tags">
+            <span class="tag hot">Text I/O</span>
+            <span class="tag hot">Binary I/O</span>
+            <span class="tag">Serialization</span>
+            <span class="tag">Exception Safety</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROFICIENCY BARS -->
+    <section class="section" style="background: var(--surface);">
+      <div class="section-label">Proficiency</div>
+      <h2 class="section-title">SKILL LEVELS</h2>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem;" class="reveal">
+
+        <div class="bar-list">
+          <div class="bar-item">
+            <div class="bar-header">
+              <span class="bar-name">Java</span>
+              <span class="bar-val">65%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-w="65%"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span class="bar-name">Object-Oriented Design</span>
+              <span class="bar-val">70%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-w="70%"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span class="bar-name">Linux / CLI</span>
+              <span class="bar-val">55%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-w="55%"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span class="bar-name">File I/O & Data Persistence</span>
+              <span class="bar-val">68%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-w="68%"></div></div>
+          </div>
+        </div>
+
+        <div class="bar-list">
+          <div class="bar-item">
+            <div class="bar-header">
+              <span class="bar-name">Automotive Mechanics</span>
+              <span class="bar-val">60%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-w="60%"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span class="bar-name">Car Audio / Electronics</span>
+              <span class="bar-val">55%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-w="55%"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span class="bar-name">Problem Solving</span>
+              <span class="bar-val">85%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-w="85%"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span class="bar-name">Guitar</span>
+              <span class="bar-val">40%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-w="40%"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CURRENTLY LEARNING -->
+    <section class="section">
+      <div class="section-label">In Progress</div>
+      <h2 class="section-title">CURRENTLY<br>LEARNING</h2>
+      <div style="display:grid; grid-template-columns: repeat(3,1fr); gap:1.5rem;" class="reveal">
+        <div class="card">
+          <div style="font-family:'Space Mono',monospace; font-size:.6rem; letter-spacing:.15em; color:var(--accent); margin-bottom:.8rem; text-transform:uppercase;">Active</div>
+          <h4 style="font-family:'Bebas Neue',sans-serif; font-size:1.4rem; color:var(--white); margin-bottom:.5rem;">Advanced Java Patterns</h4>
+          <p style="font-size:.85rem; color:var(--muted); line-height:1.6;">External libraries, more complex data structures, and deeper OOP patterns.</p>
+        </div>
+        <div class="card">
+          <div style="font-family:'Space Mono',monospace; font-size:.6rem; letter-spacing:.15em; color:var(--accent2); margin-bottom:.8rem; text-transform:uppercase;">Planned</div>
+          <h4 style="font-family:'Bebas Neue',sans-serif; font-size:1.4rem; color:var(--white); margin-bottom:.5rem;">Motorcycle Mechanics</h4>
+          <p style="font-size:.85rem; color:var(--muted); line-height:1.6;">Preparing for supersport ownership — engine, brakes, suspension fundamentals.</p>
+        </div>
+        <div class="card">
+          <div style="font-family:'Space Mono',monospace; font-size:.6rem; letter-spacing:.15em; color:var(--muted); margin-bottom:.8rem; text-transform:uppercase;">Ongoing</div>
+          <h4 style="font-family:'Bebas Neue',sans-serif; font-size:1.4rem; color:var(--white); margin-bottom:.5rem;">Guitar Technique</h4>
+          <p style="font-size:.85rem; color:var(--muted); line-height:1.6;">Working through chord transitions and basic lead playing on the Pacifica 012.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NAV FOOTER -->
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:2rem 3rem; border-top:1px solid var(--border);">
+      <a href="about.html" class="btn btn-outline">← About</a>
+      <a href="projects.html" class="btn btn-primary">Projects →</a>
+    </div>
+
+  </div><!-- .page -->
+
+  <footer>
+    <p>© 2025 — Filip Honc</p>
+    <p>Built with raw HTML/CSS — Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
